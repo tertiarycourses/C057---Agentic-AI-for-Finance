@@ -1,0 +1,7 @@
+Use_Case_ID,Use_Case,Goal,Primary_Source,Deterministic_Core,Model_Contribution,Human_Owner,Write_Action,Risk_Tier
+FIN-01,Monthly close variance brief,Prepare a cited draft after figures reconcile,Budget actual and ledger snapshots,Totals formulas materiality,Plan classify questions narrative,Finance Manager,NONE,MEDIUM
+FIN-02,Cash reconciliation,Match cash ledger to bank and own exceptions,Cash ledger and bank statement,Exact matching adjusted balances,Exception explanation and summary,Financial Controller,NONE,MEDIUM
+FIN-03,Driver forecast,Compare three approved planning scenarios,Historical monthly and driver assumptions,Scenario formulas and sensitivities,Assumption challenge and commentary,FP&A Manager,NONE,MEDIUM
+FIN-04,Invoice triage,Create a draft-ready or exception route,Invoice register PO and receipt evidence,Duplicate amount receipt confidence rules,Exception classification and reviewer summary,AP Manager,NONE,HIGH
+FIN-05,Performance analysis,Explain verified monthly performance,Historical monthly and budget actual,Metrics margins and variances,Insight chain and validation questions,Finance Business Partner,NONE,MEDIUM
+FIN-06,Scenario decision pack,Compare outcomes triggers and actions,Approved scenario forecast,Scenario calculations and chart values,Risk narrative and action alternatives,CFO Delegate,NONE,MEDIUM

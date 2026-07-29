@@ -1,0 +1,10 @@
+Scenario,Driver,Value,Unit,Rationale
+Base,Monthly_Revenue_Growth,0.03,decimal,Approved planning baseline
+Base,COGS_Percent,0.56,decimal,Recent cost mix with planned sourcing action
+Base,Operating_Expense,40000,SGD per month,Approved operating plan
+Downside,Monthly_Revenue_Growth,-0.02,decimal,Planning case for demand contraction
+Downside,COGS_Percent,0.60,decimal,Planning case for input cost pressure
+Downside,Operating_Expense,42000,SGD per month,Limited near term cost flexibility
+Upside,Monthly_Revenue_Growth,0.06,decimal,Planning case for stronger conversion
+Upside,COGS_Percent,0.54,decimal,Planning case for favourable mix
+Upside,Operating_Expense,39000,SGD per month,Planned efficiency action

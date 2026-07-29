@@ -1,0 +1,9 @@
+Transaction_ID,Date,Reference,Description,Amount_SGD,Currency
+L001,2026-06-02,NS-1001,Customer receipt Alpha,12000,SGD
+L002,2026-06-04,NS-1002,Supplier payment Paperline,-4200,SGD
+L003,2026-06-07,NS-1003,Software subscription,-1800,SGD
+L004,2026-06-12,NS-1004,Customer receipt Beacon,8600,SGD
+L005,2026-06-15,NS-1005,Office lease service charge,-1250,SGD
+L006,2026-06-20,NS-1006,Marketing campaign payment,-3000,SGD
+L007,2026-06-25,NS-1007,Customer receipt Cedar,5200,SGD
+L008,2026-06-30,NS-1008,Outstanding supplier payment,-850,SGD

@@ -1,0 +1,10 @@
+Bank_ID,Date,Reference,Description,Amount_SGD,Currency
+B001,2026-06-02,NS-1001,Incoming transfer Alpha,12000,SGD
+B002,2026-06-04,NS-1002,GIRO Paperline,-4200,SGD
+B003,2026-06-07,NS-1003,Card software subscription,-1800,SGD
+B004,2026-06-12,NS-1004,Incoming transfer Beacon,8600,SGD
+B005,2026-06-15,NS-1005,GIRO service charge,-1250,SGD
+B006,2026-06-20,NS-1006,Transfer marketing campaign,-3000,SGD
+B007,2026-06-25,NS-1007,Incoming transfer Cedar,5200,SGD
+B008,2026-06-28,BANK-FEE,Monthly bank service fee,-45,SGD
+B009,2026-06-30,BANK-INT,Deposit interest,25,SGD

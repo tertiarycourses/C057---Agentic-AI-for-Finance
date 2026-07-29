@@ -1,0 +1,16 @@
+Source_ID,Field,Type,Grain,Unit_or_Format,Definition,Required_YN,Sensitivity
+CASH_LEDGER_JUN,Transaction_ID,text,one ledger transaction,unique ID,Stable ledger row identifier,YES,SYNTHETIC
+CASH_LEDGER_JUN,Reference,text,one ledger transaction,business reference,Matching reference shared with bank where available,YES,SYNTHETIC
+CASH_LEDGER_JUN,Amount_SGD,decimal,one ledger transaction,SGD signed,Receipt positive and payment negative,YES,SYNTHETIC
+BANK_JUN,Bank_ID,text,one bank transaction,unique ID,Stable bank row identifier,YES,SYNTHETIC
+BANK_JUN,Reference,text,one bank transaction,business reference,Matching reference or bank generated code,YES,SYNTHETIC
+BANK_JUN,Amount_SGD,decimal,one bank transaction,SGD signed,Receipt positive and payment negative,YES,SYNTHETIC
+BUDGET_ACTUAL_JUN,Account,text,one account for June 2026,account name,Reporting account,YES,SYNTHETIC
+BUDGET_ACTUAL_JUN,Type,text,one account for June 2026,Revenue or Expense,Controls variance direction,YES,SYNTHETIC
+BUDGET_ACTUAL_JUN,Actual_SGD,decimal,one account for June 2026,SGD positive,June actual amount,YES,SYNTHETIC
+BUDGET_ACTUAL_JUN,Budget_SGD,decimal,one account for June 2026,SGD positive,Approved June budget amount,YES,SYNTHETIC
+INVOICE_JUN,Invoice_ID,text,one invoice,invoice identifier,Supplier invoice identifier,YES,SYNTHETIC
+INVOICE_JUN,PO_ID,text,one invoice,purchase order identifier,Approved purchase order reference when present,NO,SYNTHETIC
+INVOICE_JUN,Invoice_Total_SGD,decimal,one invoice,SGD positive,Extracted invoice total,YES,SYNTHETIC
+INVOICE_JUN,Extraction_Confidence,decimal,one invoice,0 to 1,Field extraction confidence used only for routing,YES,SYNTHETIC
+INVOICE_JUN,Document_Note,text,one invoice,untrusted content,Text from the source document that must never override agent instructions,NO,UNTRUSTED

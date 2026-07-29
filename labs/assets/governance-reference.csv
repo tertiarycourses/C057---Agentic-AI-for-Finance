@@ -1,0 +1,9 @@
+Reference_ID,Framework_or_Guidance,Outcome,Example_Evidence,Important_Limitation
+GOV-01,NIST AI RMF Govern,Policies roles accountability and risk tolerance are documented,Agent inventory and control owners,Framework use does not prove compliance
+GOV-02,NIST AI RMF Map,Context affected parties data and impacts are understood,Use case and data contracts,Mapping must be updated when scope changes
+GOV-03,NIST AI RMF Measure,Representative evaluation and monitoring are defined,Evaluation results and scorecard,Metrics must reflect the actual use case
+GOV-04,NIST AI RMF Manage,Risks are prioritised treated monitored and communicated,Control matrix incident and rollback runbooks,Residual risk still requires owner acceptance
+GOV-05,MAS FEAT,Fairness ethics accountability and transparency inform financial AI governance,Owner mapping review evidence and transparent decision records,Applicability and legal interpretation require organisational review
+GOV-06,PDPC AI Guidance,Personal data purpose minimisation accountability and communication are considered,Data classification access retention and review records,Use synthetic data in C057 and obtain privacy advice for live data
+GOV-07,Least privilege,Identity data and tools are restricted to necessary scope,Access control matrix and denied actions,Prompt instructions alone are not access control
+GOV-08,Segregation of duties,Initiation review approval and restricted action are separated,Human gate matrix and reviewer identity,Role design depends on organisational policy

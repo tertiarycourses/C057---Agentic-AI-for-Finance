@@ -1,0 +1,7 @@
+Period,Account,Type,Actual_SGD,Budget_SGD,Currency
+2026-06,Revenue,Revenue,125000,120000,SGD
+2026-06,COGS,Expense,70000,66000,SGD
+2026-06,Payroll,Expense,24000,25000,SGD
+2026-06,Cloud,Expense,6000,4000,SGD
+2026-06,Marketing,Expense,4500,6000,SGD
+2026-06,Other,Expense,3000,2500,SGD

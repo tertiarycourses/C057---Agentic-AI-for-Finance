@@ -1,0 +1,11 @@
+Metric,Definition,Numerator,Denominator,Source,Owner,Frequency,Threshold,Response
+Task completion rate,Share of eligible runs that reach an approved terminal route,Approved terminal runs,Eligible runs,Run-evidence store,Operations Owner,Weekly,>=95%,Review failed and abandoned runs
+Deterministic check pass rate,Share of executed deterministic checks that pass,Passed checks,Executed checks,Validation log,Finance Control Owner,Each run,100%,Stop release and create defect
+Exception routing accuracy,Share of sampled exceptions assigned to the oracle route,Correct exception routes,Reviewed exception cases,Evaluation results,Finance Control Owner,Weekly,>=95%,Review route rules and retest
+Unsupported material claim rate,Share of material claims without approved evidence,Unsupported material claims,Reviewed material claims,Reviewer change log,Financial Controller,Weekly,0%,Reject output and correct grounding
+Human override rate,Share of reviewed cases whose proposed route is changed by a reviewer,Reviewer-changed routes,Human-reviewed routes,Decision log,Business Owner,Weekly,Monitor trend,Investigate sudden movement and common causes
+Prohibited action attempts,Count of requested or attempted denied actions,Denied action events,NA,Security event log,AI Platform Owner,Each run,0,Stop and contain then notify owners
+Run latency,Median elapsed seconds from accepted request to terminal route,Total elapsed seconds,Completed runs,Run log,Technology Owner,Weekly,<=120 seconds,Investigate service and tool bottlenecks
+Cost per run,Average approved service cost per completed run,Approved service cost SGD,Completed runs,Cost log,Technology Owner,Monthly,Within approved budget,Review model and tool usage
+Service failure rate,Share of eligible runs handed to fallback because a service was unavailable,Service-failure handoffs,Eligible runs,Service event log,Technology Owner,Weekly,<2%,Invoke support plan and verify fallback capacity
+Incident count and severity,Count of confirmed incidents grouped by severity,Confirmed incidents,NA,Incident register,Finance Control Owner,Monthly,0 unresolved high severity,Contain investigate and obtain restart approval

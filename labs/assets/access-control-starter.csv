@@ -1,0 +1,11 @@
+Identity,Environment,Source_ID,Permission,Allowed_Parameters,Denied_Actions,Approval,Expiry,Revocation_Owner
+C057-FOUNDATION-SANDBOX,Synthetic sandbox,DATA_DICTIONARY,READ,Course synthetic sources only,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-CLOSE-SANDBOX,Synthetic sandbox,CASH_LEDGER_JUN,READ,Period=2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-CLOSE-SANDBOX,Synthetic sandbox,BANK_JUN,READ,Period=2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-CLOSE-SANDBOX,Synthetic sandbox,BUDGET_ACTUAL_JUN,READ,Period=2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-FORECAST-SANDBOX,Synthetic sandbox,HISTORICAL_MONTHLY,READ,Period=2026-01_to_2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-FORECAST-SANDBOX,Synthetic sandbox,FORECAST_DRIVERS,READ,Horizon=2026-07_to_2026-09,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-INVOICE-SANDBOX,Synthetic sandbox,INVOICE_REGISTER,READ,Period=2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-ANALYSIS-SANDBOX,Synthetic sandbox,BUDGET_ACTUAL_JUN,READ,Period=2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-SCENARIO-SANDBOX,Synthetic sandbox,HISTORICAL_MONTHLY,READ,Period=2026-01_to_2026-06,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
+C057-SCENARIO-SANDBOX,Synthetic sandbox,FORECAST_DRIVERS,READ,Horizon=2026-07_to_2026-09,"browse shared drive;post journal;change supplier master;release payment;external send",Course sandbox approval,Course end,AI Platform Owner
